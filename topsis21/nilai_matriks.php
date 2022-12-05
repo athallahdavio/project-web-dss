@@ -20,7 +20,7 @@ $h=mysqli_num_rows($s);
 <tr>
 <?php
 for($n=1;$n<=$h;$n++){
-	echo"<th>C{$n}</th>";
+	echo"<th>K{$n}</th>";
 }
 ?>
 </tr>
